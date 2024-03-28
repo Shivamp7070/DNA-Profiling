@@ -1,0 +1,31 @@
+Input: load_db small.txt
+	display
+	load_dna 1.txt
+	display
+	process
+	display
+	search
+	#
+
+*******************
+ourvector<NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE> stats:
+ # of vectors created:   9
+ # of elements inserted: 27
+ # of elements accessed: 30
+*******************
+*******************
+ourvector<P4User> stats:
+ # of vectors created:   6
+ # of elements inserted: 18
+ # of elements accessed: 61
+*******************
+
+
+The above shows number of vector.h made in my program, I have made intotal 4 ourvectors(3 ourvector in the int main including 1 temp ourvector in the function) 
+inorder to get the character/string from the given datafile. I have also made several function for each menu Option in which I had to function decomposition inorder
+to stick with the style for grading(which says the function should not have more than 30 lines). Where convertSTringtoVector function converts all the string into a vector,
+isSTringMatching finds all the string from the vector
+
+function which counts the maximum mathc of the DNA used the for loop and I used the if else condition to check how much maximum DNA is matched and also the size depends if it does not satisfy the if conditio it will move to the else and in that the currMaximum will become 0;
+
+This function loads the Database and will give the error message if fails to opens.
